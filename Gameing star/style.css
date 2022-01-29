@@ -1,0 +1,243 @@
+*
+{
+    top:0;
+    left:0;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.first
+{
+    background: url("gaming-bg1\ \(1\).webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(17, 3, 148);
+    height:100vh;
+    width:100%;
+}
+.nav
+{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    color:#fff;
+    margin-top: -51px;
+    font-size: 20px;
+    font-family: poppnic,sans-serif;
+    margin-left: 900px;
+    cursor: pointer;
+}
+.nav li
+{
+    padding:10px;
+    transition: 2s;
+}
+.nav li:hover
+{
+    color:rgb(255, 138, 95);
+    text-decoration: underline;
+}
+.head
+{
+    color:#fff;
+    font-family: poppnic,sans-serif;
+    transform:translateY(190px);
+    font-size: 60px;
+    margin-left: 100px;
+}
+.para
+{
+    font-family: poppnic,sans-serif;
+    color:#fff;
+    font-size: 20px;
+    transform: translateY(210px);
+    margin-left:100px ;
+}
+.btn
+{
+    transform: translateY(250px);
+    margin-left: 100px;
+}
+button
+{
+    padding:20px;
+    width:13%;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: poppnic,sans-serif;
+    background: linear-gradient(skyblue,rgb(129, 129, 255));
+    color:#fff;
+}
+.img
+{
+    transform: translateY(-150px); 
+    margin-left: 800px;
+}
+.second
+{
+    background:rgb(49, 28, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+    width:100%;
+}
+.box
+{
+    height:450px;
+    width:380px;
+    /* border:1px solid red; */
+    box-shadow: 20px 21px 32px 6px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 20px 21px 32px 6px rgba(0,0,0,0.74);
+    -moz-box-shadow: 20px 21px 32px 6px rgba(0,0,0,0.74);
+    border-radius: 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    /* transition: 2s; */
+}
+.box:hover
+{
+    border:2px solid red;
+    filter: drop-shadow(0 0 10px rgb(252, 8, 8));
+}
+.card
+{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: -10px;
+    transform: translateY(150px);
+}
+.third
+{
+    background:rgb(49, 28, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:66vh;
+    width:100%;
+}
+.btnn
+{
+    transform: translateY(-280px);
+    margin-left: 100px;
+}
+.fourth
+{
+    background:rgb(49, 28, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:130vh;
+    width:100%;
+}
+.btnni
+{
+    transform: translateY(-300px);
+    margin-left: 700px;
+}
+.live
+{
+    margin-left: 1050px;
+    transform: translateY(-320px);
+}
+.fifth
+{
+    background:rgb(49, 28, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:180vh;
+    width:100%; 
+}
+/* slider */
+.carousel {
+    background:none;
+  }
+  
+  .carousel-cell {
+    width: 45%;
+    height: 300px;
+    margin-right: 10px;
+    background:black;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  
+  .carousel-cell.is-selected {
+    background:black;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+     content: counter(carousel-cell); 
+    line-height: 200px;
+    font-size: 80px;
+    color:transparent;
+  }
+  .boxx
+  {
+      height:300px;
+      width:30%;
+      border: 1px solid black;
+  }
+  .in
+{
+    list-style: none;
+    display: flex;
+}
+.sixth
+{
+    background:rgb(49, 28, 70);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:170vh;
+    width:100%;
+}
+.attack
+{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    transform: translateY(100px);
+}
+.text
+{
+    margin-left: 800px;
+    transform: translateY(-150px);
+    background-color: rgb(54, 54, 54,0.4);
+    outline: none;
+    border:none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width:44%;
+    height:200px;
+}
+.seven
+{
+    height:40vh;
+    background-color: black;
+}
+.main
+{
+    list-style: none;
+    /* display:flex; */
+    color:#fff;
+    margin-top:-100px;
+    margin-left: 1200px;
+    transform: translateY(-70px);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer; 
+}
+.main li
+{
+    margin-top: 10px;
+}
+.main li:hover
+{
+    color:orangered;
+}
+.oio li
+{
+    margin-top: 15px;
+}
